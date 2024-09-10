@@ -1,3 +1,10 @@
+#name: Seeley Seward
+
+#class: 6th hour
+
+#Assignment: playground
+
+
 print("hello")
 
 name = input("who are you?")
