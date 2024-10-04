@@ -15,12 +15,19 @@ print("hello world")
 #is false, print an error message telling them which one they are "missing".
 
 wifi=True
-login=False
-Admin=False
+login=True
+Admin=True
 Login_count=0
 #make if statement to see if true
 if wifi == True:
     if login == True:
         if Admin == True:
             print("welcome!")
-          Login_count+=
+            Login_count += 1
+            print(Login_count)
+        else:
+            print("unauthorized account")
+    else:
+        print("incorrect login")
+else:
+    print("No wifi")
