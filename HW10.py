@@ -1,4 +1,4 @@
-#Name:
+#Name:Seeley Seward
 #Class: 6th Hour
 #Assignment: HW10
 import time
