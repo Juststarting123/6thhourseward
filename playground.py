@@ -93,3 +93,12 @@ print("I can't eat it.:(")
 print("You can have it then. :)")
 
 name = input("ok,bye!")
+
+name = print("hi again!")
+
+print("wanna play another game?")
+
+p = int(input("Enter a integer:"))
+while p  !=0:
+    print(p)
+    p = int(input("Enter a integer:"))
