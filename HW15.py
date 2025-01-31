@@ -27,9 +27,6 @@ def number_count(x):
 
 #5. Call all of the functions created in 1 - 4 with relevant arguments.
 
-hello_world()
-calculate_average(5, 10, 15)
-animal_list("Roy", "Steven", "James","billy","Tom")
-number_count(12)
+
 
 
