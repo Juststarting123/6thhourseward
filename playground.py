@@ -4,8 +4,9 @@
 
 #Assignment: playground
 
-
-print("hello")
+def hello():
+    print("hello")
+hello()
 
 name = input("who are you?")
 
@@ -17,7 +18,9 @@ print("Why?")
 
 name = input("What are you coding and what for?")
 
-print("oh")
+def oh():
+    print("oh")
+oh()
 
 name = input("Hey! Wanna play a game?")
 
@@ -78,7 +81,9 @@ print(namelist[1])
 print("and")
 print(namelist[2])
 
-print("I wanna make a sandwich")
+def I_wanna_make_a_sandwich():
+    print("I wanna make a sandwich")
+I_wanna_make_a_sandwich()
 
 name = input("But I wanna add another ingredient,got ideas?")
 
@@ -98,7 +103,28 @@ name = print("hi again!")
 
 print("wanna play another game?")
 
-p = int(input("Enter a integer:"))
-while p  !=0:
-    print(p)
-    p = int(input("Enter a integer:"))
+def which_of_these_is_yellow():
+    name = input("which of these is yellow?")
+    favorite_list=["orange","apple","banana"]
+
+    print(favorite_list)
+
+
+    if name=="banana":
+        print("correct!")
+    else:
+        print("Wrong.")
+    repeat=str(input('would you like to try again? Y/N?'))
+    if repeat == "y":
+      which_of_these_is_yellow()
+    elif repeat == "n":
+        print("oh ok then :)")
+which_of_these_is_yellow()
+
+print("Lets play something else!")
+
+
+
+
+
+
