@@ -1,4 +1,4 @@
-#Name:
+#Name:Seeley seward
 #Class: 6th Hour
 #Assignment: Scenario8
 import random
